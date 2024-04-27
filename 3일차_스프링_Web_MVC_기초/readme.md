@@ -186,7 +186,7 @@ public class SampleController {
 
 `@GetMapping`은 GET 방식으로 들어오는 요청을 위해 사용
 
-#### 1. servlet-context.xml의 component-scan
+### 1. servlet-context.xml의 component-scan
 controller 패키지에 존재하는 **컨트롤러 클래스들을 스프링으로 인식**하기 위해서는 해당 패키지를 스캔해서
 `@Controller` 어노테이션이 추가된 클래스들의 객체들을 스프링이 빈으로 설정되게 만들어야 함.
 
