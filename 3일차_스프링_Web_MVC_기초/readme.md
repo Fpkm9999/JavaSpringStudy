@@ -91,7 +91,9 @@ prefix와 suffix의 내용을 보면 뷰를 이용할때 파일명만 주어지�
 
 ### 2. web.xml의 DispatcherServlet 설정
 
-![alt text](image.png)
+<p align="center">
+  <img src="./images/02_2.png" style="border-radius: 10px;">
+</p>
 
 스프링 MVC를 실행하려면 프론트 콘트롤러 역할을 하는 `DispatcherServlet`을 설정해야함.<br>
 -> web.xml을 이용해서 처리.
@@ -406,3 +408,11 @@ SampleController에 ex1() 추가
 스프링 MVC의 파라미터는 기본적으로 요청 request에 전달된 파라미터 이름을 기준으로 동작하지만
 파라미터가 전달되지 않으면 문제가 발생.
 @RequestParam은 defaultValue라는 속성이 있어서 '기본값'을 지정할 수 있음.
+
+---
+연습
+
+
+<p align="center">
+  <img src="./images/17.png" style="border-radius: 10px;">
+</p>
